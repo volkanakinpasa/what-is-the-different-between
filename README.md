@@ -8,4 +8,7 @@
 * Press enter
 * It will search on Google as 'What is the difference between humans and animals'
 
+![Diff](/images/github/1.png "Diff")
+
 ###### Click [here](https://chrome.google.com/webstore/detail/what-is-the-difference-be/obhapnlnfjfbhcbokiemebidfodneopg) to install
+
