@@ -4,9 +4,10 @@
   "short_name": "diff",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "1.0",
+  "version": "1.2",
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "content_scripts": [
     {
@@ -33,5 +34,5 @@
     "16": "images/16.png",
     "48": "images/48.png",
     "128": "images/128.png"
-  }
+  }, "options_page": "options.html"
 }
