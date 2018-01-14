@@ -1,0 +1,6 @@
+{
+    "appDesc": {
+        "message": "What is the difference between ... and ...",
+        "description": "easy way to search with chrome tab. Type 'diff' on address bar, Press space or tab, Type what you would like to search. example: 'human and animal', Press enter, It will search on Google as 'What is the difference between human and animal'"
+    }
+}
