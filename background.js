@@ -20,7 +20,7 @@ chrome.omnibox.onInputEntered.addListener(function(text, disposition) {
             chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
                 var currentTab = tabs[0];
                 text = steamSearchText + empty +  text;
-                var url = searchUrl + text;
+                var url = searchUrl + escape(text);
                 chrome.tabs.update(currentTab.id, {"url": url});   
             });
     });
