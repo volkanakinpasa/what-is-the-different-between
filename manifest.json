@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google diff search",
+  "name": "__MSG_appName__",
   "short_name": "diff",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
@@ -9,7 +9,8 @@
     "keyword": "diff"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "type": "module"
   },
   "action": {
     "default_title": "What is the difference between ... and ...",

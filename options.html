@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
     <title>My Test Extension Options</title>
   </head>
   <style>
@@ -10,12 +11,16 @@
   </style>
   <body>
     <div>
-      <h1 style="text-align: center; font-size: 3rem;">
-        Type 'diff' on url bar and press space or tab.
+      <h1 data-locale="optionTitle" style="text-align: center; font-size: 3rem">
+        optionTitle
       </h1>
-      <p style="text-align: center; color: gray; font-size: 2rem;">
-        example: 'diff' then 'coffee and tea'
+      <p
+        data-locale="optionExample"
+        style="text-align: center; color: gray; font-size: 2rem"
+      >
+        optionExample
       </p>
     </div>
   </body>
+  <script type="module" src="./i18n/localize.js"></script>
 </html>
