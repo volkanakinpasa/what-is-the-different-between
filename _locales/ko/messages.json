@@ -1,0 +1,22 @@
+{
+  "appName": {
+    "message": "구글 diff 검색",
+    "description": "브라우저 확장프로그램 이름"
+  },
+  "appDesc": {
+    "message": "키워드 'diff'을 사용해서 '... 와 ...의 차이를 검색해보세요'",
+    "description": "주소창에서 'diff'를 입력하고 tab키를 누른 뒤, '토끼 사슴' 같이 입력하고 엔터를 누르세요. 프로그램이 '토끼 사슴의 차이'로 변환하여 검색해드립니다."
+  },
+  "searchText": {
+    "message": "***의 차이",
+    "description": "검색할 url"
+  },
+  "optionTitle": {
+    "message": "주소창에 키워드 'diff'을 입력하고 스페이스바 혹은 탭을 누르세요.",
+    "description": "설명문"
+  },
+  "optionExample": {
+    "message": "예시: 키워드 'diff'를 입력하고 '토끼 사슴' 입력",
+    "description": "예제"
+  }
+}

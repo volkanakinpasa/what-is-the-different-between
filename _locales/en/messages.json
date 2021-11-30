@@ -1,6 +1,22 @@
 {
+  "appName": {
+    "message": "Google diff search",
+    "description": "The app name of browser extension"
+  },
   "appDesc": {
     "message": "Shortcut 'diff' search on Google for 'What is the difference between ... and ...'",
     "description": "Just type 'diff' on url bar to search on Google. It will search on Google as 'What is the difference between ... and ...'.  example: 'diff coffee and tea'"
+  },
+  "searchText": {
+    "message": "What is the difference between ***",
+    "description": "The url to search"
+  },
+  "optionTitle": {
+    "message": "Type 'diff' on url bar and press space or tab.",
+    "description": "The option title"
+  },
+  "optionExample": {
+    "message": "example: 'diff' then 'coffee and tea'",
+    "description": "The option example"
   }
 }
